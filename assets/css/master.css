@@ -56,6 +56,13 @@ body {
 	background: grey;
 }
 
+.col			{ float: left; }
+.col1			{ width: 60%; }
+.col2			{ width: 40%; }
+
+.row-header		{ font-weight: bold; border-bottom: #444 solid 1px; }
+.row			{}
+
 .view {
 	padding: 35px;
 	/*  only one view is displayed at a time
@@ -68,3 +75,8 @@ body {
 #welcome {
 	display: block;
 }
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

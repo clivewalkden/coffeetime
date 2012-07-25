@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.getting.started" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sozo.coffeetime" version="0.0.2" versionCode="2012072514">
 	<name>Coffee Time</name>
 	<description>Coffee Time is an in office sort out who's made the most coffee in the office</description>
 	<author href="http://clivewalkden.github.com" email="clivewalkden@gmail.com">Clive Walkden</author>
 
+	<!-- ICONS -->
+	<!-- Default -->
 	<icon src="icon.png" gap:role="default" />
 
+	<!-- iOS -->
+	<icon src="assets/images/icons/ios/icon.png" width="57" height="57" />
+	<icon src="assets/images/icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="assets/images/icons/ios/icon_at_2x.png" width="114" height="114" />
+
+	<!-- Android -->
+	<icon src="assets/images/icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="assets/images/icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="assets/images/icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+
+	<!-- BlackBerry (16kb max) -->
+	<icon src="assets/images/icons/bb/icon.png" gap:platform="blackberry" />
+	<icon src="assets/images/icons/bb/icon_hover.png" gap:platform="blackberry" gap:state="hover"/>
+
+	<!-- Windows Phone -->
+	<icon src="assets/images/icons/winphone/icon.png" gap:platform="winphone" />
+	<icon src="assets/images/icons/winphone/tileicon.png" gap:platform="winphone" gap:role="background" />
+
+	<!-- Web OS -->
+	<icon src="assets/images/icons/webos/icon.png" gap:platform="webos" />
+	<icon src="assets/images/icons/webos/miniicon.png" gap:platform="webos" gap:role="mini" />
+
+	<!-- SPLASH SCREEN -->
+	<!-- Default -->
+	<gap:splash src="assets/images/splash.png" />
+
+	<!-- iOS -->
+	<gap:splash src="assets/images/splash/ios/Default.png" width="320" height="480" />
+	<gap:splash src="assets/images/splash/ios/Default_at_2x.png" width="640" height="960" />
+	<gap:splash src="assets/images/splash/ios/Default-Landscape.png" width="1024" height="768" />
+	<gap:splash src="assets/images/splash/ios/Default-Portrait.png" width="768" height="1024" />
+
+	<!-- BalckBerry -->
+	<gap:splash src="assets/images/splash/bb/splash.png" gap:platform="blackberry" />
+
+	<!-- Windows Phone -->
+	<gap:splash src="assets/images/splash/winphone/splash.jpg" gap:platform="winphone" />
+
+	<!-- Android -->
+	<gap:splash src="assets/images/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="assets/images/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="assets/images/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+
+	<access origin="http://sozoweb.co.uk" subdomains="true" />
+
 	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/contacts"/>
+
 
 	<preference name="orientation" value="portrait" />
 </widget>
