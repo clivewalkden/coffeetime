@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.getting.started" version="1.0.0">
+	<name>Coffee Time</name>
+	<description>Coffee Time is an in office sort out who's made the most coffee in the office</description>
+	<author href="http://clivewalkden.github.com" email="clivewalkden@gmail.com">Clive Walkden</author>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="portrait" />
+</widget>
