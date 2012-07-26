@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sozo.coffeetime" version="0.0.2" versionCode="2012072514">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sozo.coffeetime" version="0.0.3" versionCode="2012072612">
 	<name>Coffee Time</name>
 	<description>Coffee Time is an in office sort out who's made the most coffee in the office</description>
 	<author href="http://clivewalkden.github.com" email="clivewalkden@gmail.com">Clive Walkden</author>
@@ -40,7 +40,7 @@
 	<gap:splash src="assets/images/splash/ios/Default-Landscape.png" width="1024" height="768" />
 	<gap:splash src="assets/images/splash/ios/Default-Portrait.png" width="768" height="1024" />
 
-	<!-- BalckBerry -->
+	<!-- BlackBerry -->
 	<gap:splash src="assets/images/splash/bb/splash.png" gap:platform="blackberry" />
 
 	<!-- Windows Phone -->
